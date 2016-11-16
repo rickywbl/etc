@@ -1,0 +1,91 @@
+//
+//  PrefixHeader.pch
+//  SLY
+//
+//  Created by 王保霖 on 2016/9/22.
+//  Copyright © 2016年 Ricky. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <CoreGraphics/CoreGraphics.h>
+
+#import "Masonry.h"
+#import "MJRefresh.h"
+#import "ReactiveCocoa.h"
+#import "SVProgressHUD.h"
+#import "YYModel.h"
+#import "UIImageView+WebCache.h"
+#import "CRToast.h"
+
+
+#import "SLYFatherViewController.h"
+#import "SLYNavigationController.h"
+#import "UIColor+HexadecimalColor.h"
+#import "UIView+Extension.h"
+#import "SLYTools.h"
+#import "SLYRefreshAutoFooter.h"
+#import "SLYNetRequestManage.h"
+#import "SLYMessageResponse.h"
+#import "SLYConfig.h"
+#import "SLYArticleDetailViewController.h"
+#import "SLYLoginViewController.h"
+#import "UITableView+CYLTableViewPlaceHolder.h"
+#import "CYLTableViewPlaceHolder.h"
+
+
+
+#define  secretCode @"b58gh0AE76pE45D28wjE9E31avpBE0K4"
+
+
+#define SLYColor(h,a) [UIColor colorWithHexValue:(h) alpha:(a)]
+#define SLYScreenWidth [UIScreen mainScreen].bounds.size.width
+#define SLYScreenHeight [UIScreen mainScreen].bounds.size.height
+#define SLYScreenScale SLYScreenWidth/320.0
+
+
+
+
+#define SLYRequestHeader @"http://tg.sanlianyang.com/"
+#define ETCRequestHeader @"http://192.168.1.2:8006/"
+
+#define SLYRequest(p)  [NSString stringWithFormat:@"%@%@",SLYRequestHeader,p]
+#define ETCRequest(p)  [NSString stringWithFormat:@"%@%@",ETCRequestHeader,p]
+
+
+#define SLYNet_ArticleList ETCRequest(@"article/List")
+#define SLYNet_MessageList ETCRequest(@"article/Message/List")
+#define SLYNet_Login   ETCRequest(@"account/login")
+#define SLYNet_articleInfo   ETCRequest(@"article/Info")
+#define SLYNet_VideoList   ETCRequest(@"video/Record/list")
+#define SLYNet_VideoLiveInfo  ETCRequest(@"video/Live/Info")
+#define SLYNet_submitcomment   ETCRequest(@"comment/Submit")
+#define SLYNet_commentList   ETCRequest(@"/comment/List")
+#define SLYNet_AccountProtocol ETCRequest(@"account/Protocol")
+#define SLYNet_quotation ETCRequest(@"quotation/List")
+#define SLYNet_Practice ETCRequest(@"practice/List")
+#define SLYNet_changePw   ETCRequest(@"/account/ChangePassword")
+
+///quotation/List
+
+
+
+
+#define SLYNet_loginOut   SLYRequest(@"/account/logout")
+#define SLYNet_TokenValidate  SLYRequest(@"/account/TokenValidate")
+
+
+#define Token @"SLYTGa9d8307fada74d6a9c39c84f22e4e74c"
+
+
+#define WHAppKey @"e33a55f401a6d5b80a89c3a6f40e3386"
+#define WHSecretKey @"8fb6fedc4ccf0f2854ed6a584095dc7d"
+#define WHAppSecretKey @"76dbbd1dad3f5caf35dba7341b564b71"
+
+
+#endif /* PrefixHeader_pch */
+
+

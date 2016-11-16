@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="message" rowHeight="63" id="KGk-i7-Jjw" customClass="SLYReMessageTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="307" height="70"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <frame key="frameInset" width="307" height="69"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="message_nofi" translatesAutoresizingMaskIntoConstraints="NO" id="AK8-6v-b1H">
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="AK8-6v-b1H" secondAttribute="height" multiplier="1:1" id="xbo-3D-7JT"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="message_one" translatesAutoresizingMaskIntoConstraints="NO" id="WFU-aM-DUL"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="系统通知" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v1z-Dh-hqa">
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="关于上海证券交易所2016年全年修饰安排通告" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rWV-qI-OhY">
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.32941176470588235" green="0.32941176470588235" blue="0.32941176470588235" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2016-09-30" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OSM-rF-E4X">
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="WFU-aM-DUL" firstAttribute="leading" secondItem="AK8-6v-b1H" secondAttribute="trailing" constant="-10" id="2hK-c2-17l"/>
+                    <constraint firstAttribute="trailing" secondItem="rWV-qI-OhY" secondAttribute="trailing" constant="12" id="59Q-i5-fwJ"/>
+                    <constraint firstItem="AK8-6v-b1H" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="5eO-vb-9uq"/>
+                    <constraint firstItem="AK8-6v-b1H" firstAttribute="top" secondItem="WFU-aM-DUL" secondAttribute="bottom" constant="-10" id="BqU-8W-Htp"/>
+                    <constraint firstAttribute="trailing" secondItem="OSM-rF-E4X" secondAttribute="trailing" constant="12" id="FWX-1h-9Gq"/>
+                    <constraint firstAttribute="bottom" secondItem="AK8-6v-b1H" secondAttribute="bottom" constant="10" id="NYG-em-wag"/>
+                    <constraint firstAttribute="bottom" secondItem="rWV-qI-OhY" secondAttribute="bottom" constant="10" id="YAI-QT-hwN"/>
+                    <constraint firstItem="OSM-rF-E4X" firstAttribute="centerY" secondItem="v1z-Dh-hqa" secondAttribute="centerY" id="dcM-vV-ykC"/>
+                    <constraint firstItem="v1z-Dh-hqa" firstAttribute="leading" secondItem="AK8-6v-b1H" secondAttribute="trailing" constant="13" id="gkZ-vl-fE1"/>
+                    <constraint firstItem="v1z-Dh-hqa" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="jSU-IS-rzM"/>
+                    <constraint firstItem="AK8-6v-b1H" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="nFK-tg-o3r"/>
+                    <constraint firstItem="rWV-qI-OhY" firstAttribute="leading" secondItem="AK8-6v-b1H" secondAttribute="trailing" constant="13" id="yFP-Km-aEK"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="nifoImage" destination="AK8-6v-b1H" id="WHc-ID-413"/>
+                <outlet property="readImage" destination="WFU-aM-DUL" id="EJ3-ca-zw6"/>
+                <outlet property="subTitle" destination="rWV-qI-OhY" id="olW-RD-bCG"/>
+                <outlet property="time" destination="OSM-rF-E4X" id="6f1-JP-oPx"/>
+                <outlet property="title" destination="v1z-Dh-hqa" id="cBA-3H-eOc"/>
+            </connections>
+            <point key="canvasLocation" x="18.5" y="-7.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="message_nofi" width="50" height="50"/>
+        <image name="message_one" width="15" height="15"/>
+    </resources>
+</document>

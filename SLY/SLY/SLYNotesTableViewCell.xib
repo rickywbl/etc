@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="article" rowHeight="154" id="KGk-i7-Jjw" customClass="SLYNotesTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="154"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <frame key="frameInset" width="320" height="153"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="默认头像" translatesAutoresizingMaskIntoConstraints="NO" id="x7f-f6-HMB"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="操盘手" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G65-bX-EO4">
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.9137254901960784" green="0.32156862745098036" blue="0.34509803921568627" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="发布了一个策略" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ck0-MI-2w9">
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2016-08-30 12:05" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dci-wC-PTy">
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="得益于苹果软硬件完美的配合，作为iOS开发者，大多数情况下都不用为性能问题操心，iOS开发者只要专心于自己的业务，其他的苹果都帮我们做好了。" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dHK-dg-m9W">
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="[iOS]用TimeProfiler揪出那些耗时函数" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ew5-9P-18P">
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="x7f-f6-HMB" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="3ll-B8-ySR"/>
+                    <constraint firstAttribute="trailing" secondItem="ew5-9P-18P" secondAttribute="trailing" constant="12" id="7bC-bS-jEc"/>
+                    <constraint firstItem="x7f-f6-HMB" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="8Gq-YJ-d8v"/>
+                    <constraint firstItem="ck0-MI-2w9" firstAttribute="bottom" secondItem="x7f-f6-HMB" secondAttribute="bottom" constant="-5" id="FHc-yb-w2M"/>
+                    <constraint firstAttribute="trailing" secondItem="dHK-dg-m9W" secondAttribute="trailing" constant="12" id="Qbh-aI-53G"/>
+                    <constraint firstItem="ew5-9P-18P" firstAttribute="top" secondItem="x7f-f6-HMB" secondAttribute="bottom" constant="10" id="SOO-6i-1x8"/>
+                    <constraint firstAttribute="trailing" secondItem="dci-wC-PTy" secondAttribute="trailing" constant="12" id="TCr-SU-WIx"/>
+                    <constraint firstItem="dci-wC-PTy" firstAttribute="centerY" secondItem="ck0-MI-2w9" secondAttribute="centerY" id="ewh-Mr-mgJ"/>
+                    <constraint firstItem="ck0-MI-2w9" firstAttribute="leading" secondItem="G65-bX-EO4" secondAttribute="leading" id="fnn-JW-wER"/>
+                    <constraint firstItem="ew5-9P-18P" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="kDe-nf-537"/>
+                    <constraint firstItem="G65-bX-EO4" firstAttribute="top" secondItem="x7f-f6-HMB" secondAttribute="top" id="oPs-F2-oLT"/>
+                    <constraint firstItem="dHK-dg-m9W" firstAttribute="top" secondItem="ew5-9P-18P" secondAttribute="bottom" constant="10" id="ptJ-DW-Y1W"/>
+                    <constraint firstItem="G65-bX-EO4" firstAttribute="leading" secondItem="x7f-f6-HMB" secondAttribute="trailing" constant="10" id="uoY-ND-rOL"/>
+                    <constraint firstItem="dHK-dg-m9W" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="vg2-Pv-FdS"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="headerImage" destination="x7f-f6-HMB" id="HQL-da-zb4"/>
+                <outlet property="message" destination="ck0-MI-2w9" id="cgX-Z7-N92"/>
+                <outlet property="publisher" destination="G65-bX-EO4" id="S9s-Z4-F8X"/>
+                <outlet property="sunTitle" destination="dHK-dg-m9W" id="S2h-S7-7gb"/>
+                <outlet property="time" destination="dci-wC-PTy" id="H34-lI-wz1"/>
+                <outlet property="title" destination="ew5-9P-18P" id="T1e-dF-jKo"/>
+            </connections>
+            <point key="canvasLocation" x="25" y="19"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="默认头像" width="50" height="50"/>
+    </resources>
+</document>

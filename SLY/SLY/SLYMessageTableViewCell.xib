@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="message" rowHeight="157" id="KGk-i7-Jjw" customClass="SLYMessageTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="157"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <frame key="frameInset" width="320" height="156.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="消息-圆角矩形" translatesAutoresizingMaskIntoConstraints="NO" id="5tK-cD-IIF"/>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tabbar_message" translatesAutoresizingMaskIntoConstraints="NO" id="Lqd-Ab-SSW">
+                        <constraints>
+                            <constraint firstAttribute="width" constant="20" id="Tca-XR-Rik"/>
+                            <constraint firstAttribute="height" constant="20" id="wnE-QP-KZw"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2016年8月30日 15:05" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fCJ-nd-k6i">
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.32941176470588235" green="0.32941176470588235" blue="0.32941176470588235" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home_查看全部" translatesAutoresizingMaskIntoConstraints="NO" id="ffA-WN-W8A"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="[资金抢筹] 昨日涨停概念股近三日最受主力资金青睐" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eXt-NG-PwO">
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="据统计，近三日上证指数下跌1.45%，A股成交金额较前三日增加4.11%" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CwF-qk-Lts">
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.32941176470588235" green="0.32941176470588235" blue="0.32941176470588235" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M43-QK-cFv">
+                        <color key="backgroundColor" red="0.95686274509803915" green="0.95686274509803915" blue="0.95686274509803915" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="10" id="Bj6-wx-u3c"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="eXt-NG-PwO" firstAttribute="top" secondItem="5tK-cD-IIF" secondAttribute="bottom" constant="10" id="0oa-S4-9Bl"/>
+                    <constraint firstItem="ffA-WN-W8A" firstAttribute="centerY" secondItem="fCJ-nd-k6i" secondAttribute="centerY" id="3nJ-J3-qcp"/>
+                    <constraint firstItem="M43-QK-cFv" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="3vH-7r-Y32"/>
+                    <constraint firstItem="5tK-cD-IIF" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="6vH-E0-1fW"/>
+                    <constraint firstItem="eXt-NG-PwO" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="Ej2-LS-Daw"/>
+                    <constraint firstAttribute="trailing" secondItem="CwF-qk-Lts" secondAttribute="trailing" constant="12" id="IWE-bq-hLb"/>
+                    <constraint firstAttribute="bottom" secondItem="M43-QK-cFv" secondAttribute="bottom" id="J0t-Wc-uIl"/>
+                    <constraint firstItem="Lqd-Ab-SSW" firstAttribute="centerY" secondItem="5tK-cD-IIF" secondAttribute="centerY" id="L2g-Cb-OwY"/>
+                    <constraint firstAttribute="trailing" secondItem="5tK-cD-IIF" secondAttribute="trailing" constant="12" id="XUu-1d-V7R"/>
+                    <constraint firstItem="CwF-qk-Lts" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="dUs-Bu-bPT"/>
+                    <constraint firstItem="5tK-cD-IIF" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="hEJ-Pr-idR"/>
+                    <constraint firstItem="fCJ-nd-k6i" firstAttribute="centerY" secondItem="Lqd-Ab-SSW" secondAttribute="centerY" id="kGJ-45-JkZ"/>
+                    <constraint firstItem="Lqd-Ab-SSW" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="22" id="nHQ-eX-0nT"/>
+                    <constraint firstItem="ffA-WN-W8A" firstAttribute="leading" secondItem="fCJ-nd-k6i" secondAttribute="trailing" constant="99" id="pxg-Xr-mDS"/>
+                    <constraint firstAttribute="trailing" secondItem="eXt-NG-PwO" secondAttribute="trailing" constant="12" id="qQn-Mw-ew6"/>
+                    <constraint firstItem="fCJ-nd-k6i" firstAttribute="leading" secondItem="Lqd-Ab-SSW" secondAttribute="trailing" constant="10" id="r0y-le-AtQ"/>
+                    <constraint firstAttribute="trailing" secondItem="M43-QK-cFv" secondAttribute="trailing" id="t4A-Zp-zsL"/>
+                    <constraint firstItem="CwF-qk-Lts" firstAttribute="top" secondItem="eXt-NG-PwO" secondAttribute="bottom" constant="10" id="tui-Du-msa"/>
+                    <constraint firstAttribute="trailing" secondItem="ffA-WN-W8A" secondAttribute="trailing" constant="22" id="xn1-ej-mRp"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="Message_SubTitle" destination="CwF-qk-Lts" id="6hB-ID-lqb"/>
+                <outlet property="Message_Title" destination="eXt-NG-PwO" id="TcV-4g-xI3"/>
+                <outlet property="Message_isOpen" destination="Lqd-Ab-SSW" id="t4o-xF-NHi"/>
+                <outlet property="Message_time" destination="fCJ-nd-k6i" id="YSl-48-GcJ"/>
+            </connections>
+            <point key="canvasLocation" x="25" y="-13.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="home_查看全部" width="6" height="12"/>
+        <image name="tabbar_message" width="20" height="20"/>
+        <image name="消息-圆角矩形" width="351" height="30"/>
+    </resources>
+</document>

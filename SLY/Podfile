@@ -1,0 +1,18 @@
+platform :ios, "8.0"
+use_frameworks!
+target 'SLY' do
+ 	pod 'MJRefresh'
+	pod 'Masonry'
+	pod 'SDWebImage'
+	pod 'ReactiveCocoa'
+	pod 'YYModel'
+	pod 'AFNetworking'
+	pod 'SVProgressHUD', '~> 2.0'
+	pod 'CYLTableViewPlaceHolder'
+    pod 'Realm'
+    pod 'KSToastView', '~> 0.5.7'
+    pod 'CRToast', '~> 0.0.7'
+
+end
+
+

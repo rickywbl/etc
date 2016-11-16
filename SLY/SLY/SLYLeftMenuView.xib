@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view alpha="0.94999999999999996" contentMode="scaleToFill" id="Sss-Bm-l3R" customClass="SLYLeftMenuView">
+            <rect key="frame" x="0.0" y="0.0" width="138" height="560"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="设置" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ciL-wQ-khi">
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pY8-iG-4Qq">
+                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                    <inset key="imageEdgeInsets" minX="-15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="账号管理" image="账号管理">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rAR-B4-oMC">
+                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                    <inset key="imageEdgeInsets" minX="-15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="特别提示" image="menu_特别提示">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y9L-pq-vP6">
+                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                    <inset key="imageEdgeInsets" minX="-15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="客服热线" image="menu-客服热线">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zJx-QV-fvU">
+                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                    <inset key="imageEdgeInsets" minX="-15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="风险提示" image="menu-风险提示">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BIo-q9-aBL">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="140" id="NCf-sj-ZsX"/>
+                        <constraint firstAttribute="height" constant="40" id="rdo-ic-zuj"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                    <state key="normal" title="退出账号">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.15019646286964417" green="0.091430611908435822" blue="0.082165800034999847" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="pY8-iG-4Qq" firstAttribute="centerX" secondItem="Sss-Bm-l3R" secondAttribute="centerX" id="0qO-Ms-bDf"/>
+                <constraint firstItem="rAR-B4-oMC" firstAttribute="top" secondItem="pY8-iG-4Qq" secondAttribute="bottom" constant="36" id="1Sa-NK-Uz2"/>
+                <constraint firstItem="y9L-pq-vP6" firstAttribute="top" secondItem="rAR-B4-oMC" secondAttribute="bottom" constant="36" id="8Jl-GB-ctz"/>
+                <constraint firstItem="ciL-wQ-khi" firstAttribute="top" secondItem="Sss-Bm-l3R" secondAttribute="top" constant="80" id="8US-CM-NB3"/>
+                <constraint firstItem="zJx-QV-fvU" firstAttribute="centerX" secondItem="y9L-pq-vP6" secondAttribute="centerX" id="8YC-fE-ghw"/>
+                <constraint firstItem="ciL-wQ-khi" firstAttribute="leading" secondItem="Sss-Bm-l3R" secondAttribute="leading" constant="34" id="P63-x0-cki"/>
+                <constraint firstItem="BIo-q9-aBL" firstAttribute="centerX" secondItem="Sss-Bm-l3R" secondAttribute="centerX" id="RLE-Dd-Ggk"/>
+                <constraint firstItem="pY8-iG-4Qq" firstAttribute="top" secondItem="ciL-wQ-khi" secondAttribute="bottom" constant="68" id="RuO-K0-QgB"/>
+                <constraint firstItem="rAR-B4-oMC" firstAttribute="centerX" secondItem="pY8-iG-4Qq" secondAttribute="centerX" id="SRr-fb-WbR"/>
+                <constraint firstItem="zJx-QV-fvU" firstAttribute="top" secondItem="y9L-pq-vP6" secondAttribute="bottom" constant="36" id="euS-ug-iWr"/>
+                <constraint firstItem="y9L-pq-vP6" firstAttribute="centerX" secondItem="rAR-B4-oMC" secondAttribute="centerX" id="roy-wv-RiV"/>
+                <constraint firstAttribute="bottom" secondItem="BIo-q9-aBL" secondAttribute="bottom" constant="70" id="sfv-UQ-ddQ"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="AcountManage" destination="pY8-iG-4Qq" id="T7p-dW-DsZ"/>
+                <outlet property="Exit" destination="BIo-q9-aBL" id="jRi-hM-xdK"/>
+                <outlet property="Risk" destination="zJx-QV-fvU" id="iIV-UM-Thv"/>
+                <outlet property="Special" destination="rAR-B4-oMC" id="OxR-iR-ra1"/>
+                <outlet property="Tel" destination="y9L-pq-vP6" id="T3b-ta-wYk"/>
+            </connections>
+            <point key="canvasLocation" x="-464" y="-24"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="menu-客服热线" width="19" height="20"/>
+        <image name="menu-风险提示" width="20" height="20"/>
+        <image name="menu_特别提示" width="20" height="20"/>
+        <image name="账号管理" width="20" height="20"/>
+    </resources>
+</document>

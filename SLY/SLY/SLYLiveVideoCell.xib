@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SLYLiveVideoCell">
+            <connections>
+                <outlet property="bgView" destination="5Ti-aq-42s" id="laz-fK-6e3"/>
+                <outlet property="bgimage" destination="es9-YP-6VO" id="5CS-1t-fSm"/>
+                <outlet property="time" destination="15D-LB-yhy" id="TL2-Z5-Ms0"/>
+                <outlet property="title" destination="fG9-Xk-DrM" id="dxg-Th-u0G"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="5Ti-aq-42s">
+            <rect key="frame" x="0.0" y="0.0" width="336" height="195"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="头条情报" translatesAutoresizingMaskIntoConstraints="NO" id="es9-YP-6VO"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="基础课程" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fG9-Xk-DrM">
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dxU-c9-Zu0">
+                    <subviews>
+                        <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="live_播放" translatesAutoresizingMaskIntoConstraints="NO" id="W9s-2n-LRs"/>
+                        <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="21次播放" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Gd-Bq-Ngs">
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8:30更新" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="15D-LB-yhy">
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="0.19942848154362416" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="W9s-2n-LRs" firstAttribute="leading" secondItem="dxU-c9-Zu0" secondAttribute="leading" constant="5" id="4cu-57-NMH"/>
+                        <constraint firstAttribute="trailing" secondItem="15D-LB-yhy" secondAttribute="trailing" constant="5" id="6N0-mf-YCQ"/>
+                        <constraint firstItem="W9s-2n-LRs" firstAttribute="centerY" secondItem="dxU-c9-Zu0" secondAttribute="centerY" id="Glk-XJ-Rjh"/>
+                        <constraint firstItem="2Gd-Bq-Ngs" firstAttribute="centerY" secondItem="dxU-c9-Zu0" secondAttribute="centerY" id="Y6c-gc-bvX"/>
+                        <constraint firstItem="15D-LB-yhy" firstAttribute="centerY" secondItem="dxU-c9-Zu0" secondAttribute="centerY" id="bG5-hg-rPO"/>
+                        <constraint firstItem="2Gd-Bq-Ngs" firstAttribute="leading" secondItem="W9s-2n-LRs" secondAttribute="trailing" constant="3" id="qB7-nb-wiB"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="fG9-Xk-DrM" firstAttribute="leading" secondItem="5Ti-aq-42s" secondAttribute="leading" constant="10" id="1Tf-Hm-Gqi"/>
+                <constraint firstAttribute="trailing" secondItem="es9-YP-6VO" secondAttribute="trailing" id="3ws-hs-d12"/>
+                <constraint firstItem="dxU-c9-Zu0" firstAttribute="leading" secondItem="5Ti-aq-42s" secondAttribute="leading" id="72A-Pk-u52"/>
+                <constraint firstAttribute="bottom" secondItem="dxU-c9-Zu0" secondAttribute="bottom" id="Isb-YQ-d6C"/>
+                <constraint firstItem="es9-YP-6VO" firstAttribute="top" secondItem="5Ti-aq-42s" secondAttribute="top" id="XU7-CT-Nhi"/>
+                <constraint firstAttribute="bottom" secondItem="es9-YP-6VO" secondAttribute="bottom" id="cuR-uo-piT"/>
+                <constraint firstItem="fG9-Xk-DrM" firstAttribute="top" secondItem="5Ti-aq-42s" secondAttribute="top" constant="10" id="eZr-BA-DIf"/>
+                <constraint firstAttribute="trailing" secondItem="dxU-c9-Zu0" secondAttribute="trailing" id="iex-Rg-8aY"/>
+                <constraint firstItem="es9-YP-6VO" firstAttribute="leading" secondItem="5Ti-aq-42s" secondAttribute="leading" id="yYf-k2-HAj"/>
+                <constraint firstItem="dxU-c9-Zu0" firstAttribute="height" secondItem="5Ti-aq-42s" secondAttribute="height" multiplier="36/195" id="zRd-Xn-hUA"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="161" y="-375"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="live_播放" width="11" height="12"/>
+        <image name="头条情报" width="504" height="294"/>
+    </resources>
+</document>

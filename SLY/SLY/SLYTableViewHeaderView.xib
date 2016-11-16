@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="QJi-3y-RCy" customClass="SLYView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="客服" translatesAutoresizingMaskIntoConstraints="NO" id="qfT-tL-oR7"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="在线客服" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sxu-Bq-AfP">
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请直接与您的专属服务人员进行沟通" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y1Y-fd-uiR">
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.32941176470588235" green="0.32941176470588235" blue="0.32941176470588235" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="y1Y-fd-uiR" firstAttribute="leading" secondItem="sxu-Bq-AfP" secondAttribute="trailing" constant="8" id="D9B-eo-WFe"/>
+                <constraint firstItem="qfT-tL-oR7" firstAttribute="leading" secondItem="QJi-3y-RCy" secondAttribute="leading" constant="12" id="KDL-Dh-zUA"/>
+                <constraint firstItem="sxu-Bq-AfP" firstAttribute="leading" secondItem="qfT-tL-oR7" secondAttribute="trailing" constant="5" id="RdB-DG-tqT"/>
+                <constraint firstItem="sxu-Bq-AfP" firstAttribute="centerY" secondItem="QJi-3y-RCy" secondAttribute="centerY" id="lMp-Xy-HmM"/>
+                <constraint firstItem="qfT-tL-oR7" firstAttribute="centerY" secondItem="QJi-3y-RCy" secondAttribute="centerY" id="sBt-us-2op"/>
+                <constraint firstItem="y1Y-fd-uiR" firstAttribute="centerY" secondItem="sxu-Bq-AfP" secondAttribute="centerY" id="u1e-Fs-na1"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-41.5" y="-39"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="客服" width="15" height="15"/>
+    </resources>
+</document>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SLYNoticeViewController">
+            <connections>
+                <outlet property="read" destination="Qx0-2M-S5x" id="aGZ-lk-AdN"/>
+                <outlet property="startUse" destination="NBY-s8-iXq" id="H9R-hf-eC7"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SMM-il-ZcD">
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="使用须知" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="16X-zh-ceu">
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请在产品使用之前,仔细阅读以下风险提示:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kn1-wO-W2I">
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="使用须知-风险提示-icon" translatesAutoresizingMaskIntoConstraints="NO" id="DkW-tA-R2p">
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </imageView>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="37w-uP-5nS">
+                            <color key="backgroundColor" red="0.80000000000000004" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="0.5" id="E8b-Wt-O4H"/>
+                            </constraints>
+                        </view>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HiS-AS-GQG">
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <attributedString key="attributedText">
+                                <fragment>
+                                    <string key="content">1、用户应充分了解证券投资面临的各种市场风险和政策风险。本公司所提供的所有数据与信息，仅供用户参考使用，不构成用户进行投资操作的直接依据，用户据此操作，风险自担，公司不承担任何经济与法律责任。
+2、公司通过软件产品为用户提供财经金融资讯、股市学习课程及行情数据信息，并通过相关数据分析系统、同级运算模型对上述资讯和数据进行整理，加工和集成，为用户提供高附加值的信息和数据服务，以利于用户在投资过程中理性决策、控制风险。用户在使用软件产品过程中，对于公司提供的数据信息内容，用户不应将其视作公司明示、默示的承诺证券、期货的投资收益，不应将其视为具体证券品种选择/买卖时机的建议，或任何其他形式的证券投资咨询/建议。公司对用户的投资决策可能带来的风险或损失不承担任何违约、赔偿或其他民事责任。
+3、本公司相关服务及产品仅是投资辅助工具，单一业绩不代表全面业绩、过往业绩不代表将来业绩，无法保证投资不受损失。
+</string>
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                        <font key="NSFont" size="14" name="PingFangSC-Regular"/>
+                                        <real key="NSKern" value="0.0"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="10" paragraphSpacing="12" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                            <tabStops/>
+                                        </paragraphStyle>
+                                        <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                        <real key="NSStrokeWidth" value="0.0"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment>
+                                    <string key="content">4、本公司禁止对服务能力和过往业绩进行虚假、不实、误导性的营销宣传，禁止以任何方式承诺或保证投资收益。
+</string>
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                        <font key="NSFont" size="14" name="PingFangSC-Regular"/>
+                                        <real key="NSKern" value="0.0"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="5" paragraphSpacing="5" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                            <tabStops/>
+                                        </paragraphStyle>
+                                        <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                        <real key="NSStrokeWidth" value="0.0"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="5、本公司不提供代客理财、证券投资咨询服务。">
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                        <font key="NSFont" size="14" name="PingFangSC-Regular"/>
+                                        <real key="NSKern" value="0.0"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="10" paragraphSpacing="12" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                            <tabStops/>
+                                        </paragraphStyle>
+                                        <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                        <real key="NSStrokeWidth" value="0.0"/>
+                                    </attributes>
+                                </fragment>
+                            </attributedString>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
+                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NBY-s8-iXq">
+                            <constraints>
+                                <constraint firstAttribute="width" constant="150" id="Gnt-3y-DOT"/>
+                                <constraint firstAttribute="height" constant="40" id="M6f-hq-fB6"/>
+                            </constraints>
+                            <state key="normal" title="开始使用">
+                                <color key="titleColor" red="0.95686274510000002" green="0.1229139716" blue="0.083429185589999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="5"/>
+                                <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColor">
+                                    <color key="value" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="string" keyPath="layer.borderWidth" value="1"/>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="start:" destination="-1" eventType="touchUpInside" id="mhF-Hk-lfS"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="我已阅读以上条款,并知悉同意" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cOT-RL-gvZ">
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qx0-2M-S5x">
+                            <constraints>
+                                <constraint firstAttribute="height" constant="25" id="7yp-ib-aEW"/>
+                                <constraint firstAttribute="width" constant="25" id="Fox-gL-O77"/>
+                            </constraints>
+                            <state key="normal" image="使用须知-同意-默认"/>
+                            <state key="selected" image="使用须知-同意"/>
+                            <connections>
+                                <action selector="readAction:" destination="-1" eventType="touchUpInside" id="KTT-wM-ZMR"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="NBY-s8-iXq" secondAttribute="bottom" constant="100" id="1Bm-K0-QxH"/>
+                        <constraint firstAttribute="trailing" secondItem="HiS-AS-GQG" secondAttribute="trailing" constant="15" id="4I8-07-Ucb"/>
+                        <constraint firstItem="DkW-tA-R2p" firstAttribute="top" secondItem="16X-zh-ceu" secondAttribute="bottom" constant="20" id="4xo-AK-Kke"/>
+                        <constraint firstItem="kn1-wO-W2I" firstAttribute="centerY" secondItem="DkW-tA-R2p" secondAttribute="centerY" id="4z6-KW-fRo"/>
+                        <constraint firstAttribute="trailing" secondItem="37w-uP-5nS" secondAttribute="trailing" constant="15" id="Arg-gX-4gh"/>
+                        <constraint firstItem="cOT-RL-gvZ" firstAttribute="leading" secondItem="Qx0-2M-S5x" secondAttribute="trailing" constant="5" id="B0F-3S-QfT"/>
+                        <constraint firstItem="NBY-s8-iXq" firstAttribute="centerX" secondItem="SMM-il-ZcD" secondAttribute="centerX" id="Ev9-NE-0Xw"/>
+                        <constraint firstItem="Qx0-2M-S5x" firstAttribute="top" secondItem="HiS-AS-GQG" secondAttribute="bottom" constant="30" id="FVH-hK-RSo"/>
+                        <constraint firstItem="16X-zh-ceu" firstAttribute="centerX" secondItem="SMM-il-ZcD" secondAttribute="centerX" id="Kba-XU-3Ep"/>
+                        <constraint firstItem="NBY-s8-iXq" firstAttribute="top" secondItem="Qx0-2M-S5x" secondAttribute="bottom" constant="25" id="LuR-5z-pgP"/>
+                        <constraint firstItem="HiS-AS-GQG" firstAttribute="leading" secondItem="SMM-il-ZcD" secondAttribute="leading" constant="15" id="NKB-0S-VJ8"/>
+                        <constraint firstItem="HiS-AS-GQG" firstAttribute="top" secondItem="37w-uP-5nS" secondAttribute="bottom" constant="18" id="U0s-Mn-ae7"/>
+                        <constraint firstItem="37w-uP-5nS" firstAttribute="leading" secondItem="SMM-il-ZcD" secondAttribute="leading" constant="15" id="dvJ-1F-5fr"/>
+                        <constraint firstItem="kn1-wO-W2I" firstAttribute="leading" secondItem="DkW-tA-R2p" secondAttribute="trailing" constant="5" id="fX6-Kz-jlA"/>
+                        <constraint firstItem="37w-uP-5nS" firstAttribute="top" secondItem="DkW-tA-R2p" secondAttribute="bottom" constant="10" id="gsM-FD-sK9"/>
+                        <constraint firstItem="cOT-RL-gvZ" firstAttribute="centerY" secondItem="Qx0-2M-S5x" secondAttribute="centerY" id="l8M-pH-JFC"/>
+                        <constraint firstAttribute="trailing" secondItem="cOT-RL-gvZ" secondAttribute="trailing" constant="15" id="lLs-wV-ZrC"/>
+                        <constraint firstItem="DkW-tA-R2p" firstAttribute="leading" secondItem="SMM-il-ZcD" secondAttribute="leading" constant="15" id="nHk-xD-TgP"/>
+                        <constraint firstItem="16X-zh-ceu" firstAttribute="top" secondItem="SMM-il-ZcD" secondAttribute="top" constant="36" id="vks-y6-CjT"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="SMM-il-ZcD" secondAttribute="trailing" id="MAJ-5d-XFC"/>
+                <constraint firstAttribute="bottom" secondItem="SMM-il-ZcD" secondAttribute="bottom" id="VjI-DL-gd3"/>
+                <constraint firstItem="SMM-il-ZcD" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="dx0-vz-KhI"/>
+                <constraint firstItem="SMM-il-ZcD" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="ffO-PO-NOt"/>
+            </constraints>
+            <point key="canvasLocation" x="25.5" y="52.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="使用须知-同意" width="12" height="12"/>
+        <image name="使用须知-同意-默认" width="12" height="12"/>
+        <image name="使用须知-风险提示-icon" width="13" height="13"/>
+    </resources>
+</document>

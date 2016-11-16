@@ -1,0 +1,63 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - CRToast (0.0.9)
+  - CYLTableViewPlaceHolder (1.0.8)
+  - KSToastView (0.5.7)
+  - Masonry (1.0.2)
+  - MJRefresh (3.1.12)
+  - ReactiveCocoa (4.2.2):
+    - Result (~> 2.0)
+  - Realm (2.0.2):
+    - Realm/Headers (= 2.0.2)
+  - Realm/Headers (2.0.2)
+  - Result (2.1.3)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - SVProgressHUD (2.0.3)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - AFNetworking
+  - CRToast (~> 0.0.7)
+  - CYLTableViewPlaceHolder
+  - KSToastView (~> 0.5.7)
+  - Masonry
+  - MJRefresh
+  - ReactiveCocoa
+  - Realm
+  - SDWebImage
+  - SVProgressHUD (~> 2.0)
+  - YYModel
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  CRToast: 5a78c22b921c5ed3487488af605bc403a9c92fed
+  CYLTableViewPlaceHolder: 44075c119aab78bbc514c75d771d6565e19938e8
+  KSToastView: aeb0ca50b44e9568b6f95b2d1ec53a3f016b50fc
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  ReactiveCocoa: 72263e7ac0770c274617ccd345e01049d0ca38ae
+  Realm: 0f5a194af0b7e6158b83db41b4ee1a00be7ddf1a
+  Result: 18e1a7597fbcca5923c565b40a25a98afafdee02
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: 97012174d82488f12a2be5229f7f317382051dee
+
+COCOAPODS: 1.1.1
